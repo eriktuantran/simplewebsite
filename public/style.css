@@ -1,0 +1,37 @@
+#clock {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  margin: 50px auto;
+}
+
+#hour,
+#minute,
+#second {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform-origin: 100% 100%;
+}
+
+#hour {
+  width: 50%;
+  height: 4px;
+  background: black;
+  transform: rotate(30deg);
+}
+
+#minute {
+  width: 60%;
+  height: 4px;
+  background: black;
+  transform: rotate(6deg);
+}
+
+#second {
+  width: 70%;
+  height: 2px;
+  background: red;
+  transform: rotate(6deg);
+}
+
